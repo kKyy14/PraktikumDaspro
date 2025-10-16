@@ -1,5 +1,7 @@
 package jobsheet5;
+
 import java.util.Scanner;
+
 public class ifCetakKRS07{
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
@@ -10,6 +12,8 @@ public class ifCetakKRS07{
        if (uktLunas) {
             System.out.println("UKT Payment has been verivied");
             System.out.println("KRS now can be printed and you can ask the academic advisor to sign it");
+       }else {
+        System.out.println("Registration rejected. Please pay UKT first");
        }
     }
 }
