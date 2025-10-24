@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class nestedUjianSkripsi07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String message = " ";
+        String message = "";
         System.out.print("Has the student been cleared of compensation? (Y/T or Yes/No): ");
         String CompensationStatus = sc.nextLine().trim();
         System.out.print("enter the number of guidance logs with Supervisor 1: ");
